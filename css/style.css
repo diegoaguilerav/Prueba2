@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    display: flex;
+    background-color: rgb(49, 211, 170);
+    width: 100%;
+    justify-content: center;
+}
+nav{
+    text-align: center;
+    color: white;
+    background-color: rgb(87, 201, 172);
+}
+.navegador{
+    display: flex;
+    flex-direction: column;
+    list-style-type:none;
+}
+.section1{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(87, 201, 172);
+}
+.section2{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.imgprincipal{
+    width: 100%;
+    height: 120%;
+}
+.redessociales{
+    display: flex;
+    background-color: rgb(87, 201, 172);
+    width: 60%;
+    margin: 0 auto;
+}
+.imgr{
+    width: 25%;
+    margin: 0 5px;
+}
+.img2{
+    width: 50%;
+    margin: 10px 0;
+}
+.img2:hover{
+    transition: transform 1.5s;
+    transform: scale(1.2);
+}
+img{
+    width: 100%;
+}
+.article21{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-end;
+    padding: 10px;
+}
+.article22{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+.titulo{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+.subtitulo{
+    font-size: 14px;
+    color: gray;  
+    margin-bottom: 8px; 
+}
+hr{
+    width: 10%;
+    height: 5px;
+    background-color: gray;  
+}
+.bt{
+    text-decoration: none;
+    font-family: arial;
+    text-transform: uppercase;
+    padding: 7px;
+    color: black;
+    font-weight: bold;
+    border: 1px solid black;
+    margin-top: 8px;
+    width: 20%;
+    min-width: 100px;
+}
+a{
+    text-decoration:none;
+    color: black;
+}
+.container{
+    display: flex;
+    padding: 10px;
+    background-color: rgb(49, 211, 170);
+    margin-top: 8px;
+}
+.row1, .row2, .row3{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+.row1{
+    width: 35%;
+}
+.row2{
+    width: 25%;
+}
+.row3{
+    width: 38.9%;
+}
+footer{
+    display: flex;
+    height: 50px;
+    padding: 10px;
+    background-color: gray;
+    font-family: 'Cabin', sans-serif;
+}
+.info{
+    text-align: right;
+}
+.margen{
+    margin: 40px;
+}
+@media (min-width: 400px){
+    .navegador{
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        font-size: 18px;
+    }
+    li{
+        padding: 0 5px;
+    }
+    .logo{
+        width: 50%;
+    }
+}
