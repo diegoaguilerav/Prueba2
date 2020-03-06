@@ -136,6 +136,11 @@ footer{
 .margen{
     margin: 40px;
 }
+.nombre{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
 @media (min-width: 400px){
     .navegador{
         flex-direction: row;
